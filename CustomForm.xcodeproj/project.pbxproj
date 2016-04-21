@@ -13,6 +13,7 @@
 		4771C81E1CC90DB900D3180D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */; };
 		4771C8291CC90DB900D3180D /* CustomFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8281CC90DB900D3180D /* CustomFormTests.m */; };
 		4771C8341CC90DB900D3180D /* CustomFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8331CC90DB900D3180D /* CustomFormUITests.m */; };
+		4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8431CC90E1500D3180D /* CustomFormController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		4771C82F1CC90DB900D3180D /* CustomFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4771C8331CC90DB900D3180D /* CustomFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFormUITests.m; sourceTree = "<group>"; };
 		4771C8351CC90DB900D3180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4771C8421CC90E1500D3180D /* CustomFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormController.h; sourceTree = "<group>"; };
+		4771C8431CC90E1500D3180D /* CustomFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +101,9 @@
 			children = (
 				4771C8171CC90DB900D3180D /* AppDelegate.h */,
 				4771C8181CC90DB900D3180D /* AppDelegate.m */,
-				4771C81A1CC90DB900D3180D /* Assets.xcassets */,
-				4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */,
-				4771C81F1CC90DB900D3180D /* Info.plist */,
+				4771C8421CC90E1500D3180D /* CustomFormController.h */,
+				4771C8431CC90E1500D3180D /* CustomFormController.m */,
+				4771C8411CC90DCE00D3180D /* view */,
 				4771C8141CC90DB900D3180D /* Supporting Files */,
 			);
 			path = CustomForm;
@@ -109,6 +112,9 @@
 		4771C8141CC90DB900D3180D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4771C81A1CC90DB900D3180D /* Assets.xcassets */,
+				4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */,
+				4771C81F1CC90DB900D3180D /* Info.plist */,
 				4771C8151CC90DB900D3180D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -130,6 +136,13 @@
 				4771C8351CC90DB900D3180D /* Info.plist */,
 			);
 			path = CustomFormUITests;
+			sourceTree = "<group>";
+		};
+		4771C8411CC90DCE00D3180D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4771C8191CC90DB900D3180D /* AppDelegate.m in Sources */,
+				4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */,
 				4771C8161CC90DB900D3180D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
