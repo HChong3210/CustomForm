@@ -1,13 +1,13 @@
 //
-//  CustomFormView.h
+//  CustomFormContentCell.m
 //  CustomForm
 //
 //  Created by HChong on 16/4/21.
 //  Copyright © 2016年 HChong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CustomFormContentCell.h"
 
-@interface CustomFormView : UIView
+@implementation CustomFormContentCell
 
 @end

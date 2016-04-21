@@ -1,5 +1,5 @@
 //
-//  CustomFormView.h
+//  CustomFormBaseCell.h
 //  CustomForm
 //
 //  Created by HChong on 16/4/21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomFormView : UIView
+@interface CustomFormBaseCell : UITableViewCell
 
 @end

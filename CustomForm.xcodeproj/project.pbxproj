@@ -15,6 +15,10 @@
 		4771C8341CC90DB900D3180D /* CustomFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8331CC90DB900D3180D /* CustomFormUITests.m */; };
 		4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8431CC90E1500D3180D /* CustomFormController.m */; };
 		4771C84A1CC90F9000D3180D /* CustomFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8491CC90F9000D3180D /* CustomFormView.m */; };
+		4771C84D1CC9101200D3180D /* CustomFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C84C1CC9101200D3180D /* CustomFormBaseCell.m */; };
+		4771C8501CC9103600D3180D /* CustomFormTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C84F1CC9103600D3180D /* CustomFormTopCell.m */; };
+		4771C8531CC9104B00D3180D /* CustomFormLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8521CC9104B00D3180D /* CustomFormLeftCell.m */; };
+		4771C8561CC9106500D3180D /* CustomFormContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8551CC9106500D3180D /* CustomFormContentCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		4771C8431CC90E1500D3180D /* CustomFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormController.m; sourceTree = "<group>"; };
 		4771C8481CC90F9000D3180D /* CustomFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormView.h; sourceTree = "<group>"; };
 		4771C8491CC90F9000D3180D /* CustomFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormView.m; sourceTree = "<group>"; };
+		4771C84B1CC9101200D3180D /* CustomFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormBaseCell.h; sourceTree = "<group>"; };
+		4771C84C1CC9101200D3180D /* CustomFormBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormBaseCell.m; sourceTree = "<group>"; };
+		4771C84E1CC9103600D3180D /* CustomFormTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormTopCell.h; sourceTree = "<group>"; };
+		4771C84F1CC9103600D3180D /* CustomFormTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormTopCell.m; sourceTree = "<group>"; };
+		4771C8511CC9104B00D3180D /* CustomFormLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormLeftCell.h; sourceTree = "<group>"; };
+		4771C8521CC9104B00D3180D /* CustomFormLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormLeftCell.m; sourceTree = "<group>"; };
+		4771C8541CC9106500D3180D /* CustomFormContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormContentCell.h; sourceTree = "<group>"; };
+		4771C8551CC9106500D3180D /* CustomFormContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormContentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,14 @@
 			children = (
 				4771C8481CC90F9000D3180D /* CustomFormView.h */,
 				4771C8491CC90F9000D3180D /* CustomFormView.m */,
+				4771C84B1CC9101200D3180D /* CustomFormBaseCell.h */,
+				4771C84C1CC9101200D3180D /* CustomFormBaseCell.m */,
+				4771C84E1CC9103600D3180D /* CustomFormTopCell.h */,
+				4771C84F1CC9103600D3180D /* CustomFormTopCell.m */,
+				4771C8511CC9104B00D3180D /* CustomFormLeftCell.h */,
+				4771C8521CC9104B00D3180D /* CustomFormLeftCell.m */,
+				4771C8541CC9106500D3180D /* CustomFormContentCell.h */,
+				4771C8551CC9106500D3180D /* CustomFormContentCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -279,7 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4771C8531CC9104B00D3180D /* CustomFormLeftCell.m in Sources */,
+				4771C8501CC9103600D3180D /* CustomFormTopCell.m in Sources */,
+				4771C84D1CC9101200D3180D /* CustomFormBaseCell.m in Sources */,
 				4771C8191CC90DB900D3180D /* AppDelegate.m in Sources */,
+				4771C8561CC9106500D3180D /* CustomFormContentCell.m in Sources */,
 				4771C84A1CC90F9000D3180D /* CustomFormView.m in Sources */,
 				4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */,
 				4771C8161CC90DB900D3180D /* main.m in Sources */,
