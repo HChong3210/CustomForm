@@ -14,6 +14,7 @@
 		4771C8291CC90DB900D3180D /* CustomFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8281CC90DB900D3180D /* CustomFormTests.m */; };
 		4771C8341CC90DB900D3180D /* CustomFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8331CC90DB900D3180D /* CustomFormUITests.m */; };
 		4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8431CC90E1500D3180D /* CustomFormController.m */; };
+		4771C84A1CC90F9000D3180D /* CustomFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8491CC90F9000D3180D /* CustomFormView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		4771C8351CC90DB900D3180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4771C8421CC90E1500D3180D /* CustomFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormController.h; sourceTree = "<group>"; };
 		4771C8431CC90E1500D3180D /* CustomFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormController.m; sourceTree = "<group>"; };
+		4771C8481CC90F9000D3180D /* CustomFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormView.h; sourceTree = "<group>"; };
+		4771C8491CC90F9000D3180D /* CustomFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		4771C8411CC90DCE00D3180D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4771C8481CC90F9000D3180D /* CustomFormView.h */,
+				4771C8491CC90F9000D3180D /* CustomFormView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4771C8191CC90DB900D3180D /* AppDelegate.m in Sources */,
+				4771C84A1CC90F9000D3180D /* CustomFormView.m in Sources */,
 				4771C8441CC90E1500D3180D /* CustomFormController.m in Sources */,
 				4771C8161CC90DB900D3180D /* main.m in Sources */,
 			);
@@ -494,6 +500,7 @@
 				4771C83A1CC90DB900D3180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4771C83B1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +509,7 @@
 				4771C83D1CC90DB900D3180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4771C83E1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +518,7 @@
 				4771C8401CC90DB900D3180D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
