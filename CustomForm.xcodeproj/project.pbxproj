@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4771C8161CC90DB900D3180D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8151CC90DB900D3180D /* main.m */; };
+		4771C8191CC90DB900D3180D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8181CC90DB900D3180D /* AppDelegate.m */; };
+		4771C81B1CC90DB900D3180D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4771C81A1CC90DB900D3180D /* Assets.xcassets */; };
+		4771C81E1CC90DB900D3180D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */; };
+		4771C8291CC90DB900D3180D /* CustomFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8281CC90DB900D3180D /* CustomFormTests.m */; };
+		4771C8341CC90DB900D3180D /* CustomFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771C8331CC90DB900D3180D /* CustomFormUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4771C8251CC90DB900D3180D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4771C8091CC90DB800D3180D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4771C8101CC90DB800D3180D;
+			remoteInfo = CustomForm;
+		};
+		4771C8301CC90DB900D3180D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4771C8091CC90DB800D3180D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4771C8101CC90DB800D3180D;
+			remoteInfo = CustomForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4771C8111CC90DB800D3180D /* CustomForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4771C8151CC90DB900D3180D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4771C8171CC90DB900D3180D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4771C8181CC90DB900D3180D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4771C81A1CC90DB900D3180D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4771C81D1CC90DB900D3180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4771C81F1CC90DB900D3180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4771C8241CC90DB900D3180D /* CustomFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4771C8281CC90DB900D3180D /* CustomFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFormTests.m; sourceTree = "<group>"; };
+		4771C82A1CC90DB900D3180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4771C82F1CC90DB900D3180D /* CustomFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4771C8331CC90DB900D3180D /* CustomFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFormUITests.m; sourceTree = "<group>"; };
+		4771C8351CC90DB900D3180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4771C80E1CC90DB800D3180D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C8211CC90DB900D3180D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C82C1CC90DB900D3180D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4771C8081CC90DB800D3180D = {
+			isa = PBXGroup;
+			children = (
+				4771C8131CC90DB900D3180D /* CustomForm */,
+				4771C8271CC90DB900D3180D /* CustomFormTests */,
+				4771C8321CC90DB900D3180D /* CustomFormUITests */,
+				4771C8121CC90DB800D3180D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4771C8121CC90DB800D3180D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4771C8111CC90DB800D3180D /* CustomForm.app */,
+				4771C8241CC90DB900D3180D /* CustomFormTests.xctest */,
+				4771C82F1CC90DB900D3180D /* CustomFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4771C8131CC90DB900D3180D /* CustomForm */ = {
+			isa = PBXGroup;
+			children = (
+				4771C8171CC90DB900D3180D /* AppDelegate.h */,
+				4771C8181CC90DB900D3180D /* AppDelegate.m */,
+				4771C81A1CC90DB900D3180D /* Assets.xcassets */,
+				4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */,
+				4771C81F1CC90DB900D3180D /* Info.plist */,
+				4771C8141CC90DB900D3180D /* Supporting Files */,
+			);
+			path = CustomForm;
+			sourceTree = "<group>";
+		};
+		4771C8141CC90DB900D3180D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4771C8151CC90DB900D3180D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4771C8271CC90DB900D3180D /* CustomFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				4771C8281CC90DB900D3180D /* CustomFormTests.m */,
+				4771C82A1CC90DB900D3180D /* Info.plist */,
+			);
+			path = CustomFormTests;
+			sourceTree = "<group>";
+		};
+		4771C8321CC90DB900D3180D /* CustomFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4771C8331CC90DB900D3180D /* CustomFormUITests.m */,
+				4771C8351CC90DB900D3180D /* Info.plist */,
+			);
+			path = CustomFormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4771C8101CC90DB800D3180D /* CustomForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4771C8381CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomForm" */;
+			buildPhases = (
+				4771C80D1CC90DB800D3180D /* Sources */,
+				4771C80E1CC90DB800D3180D /* Frameworks */,
+				4771C80F1CC90DB800D3180D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomForm;
+			productName = CustomForm;
+			productReference = 4771C8111CC90DB800D3180D /* CustomForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4771C8231CC90DB900D3180D /* CustomFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4771C83B1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormTests" */;
+			buildPhases = (
+				4771C8201CC90DB900D3180D /* Sources */,
+				4771C8211CC90DB900D3180D /* Frameworks */,
+				4771C8221CC90DB900D3180D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4771C8261CC90DB900D3180D /* PBXTargetDependency */,
+			);
+			name = CustomFormTests;
+			productName = CustomFormTests;
+			productReference = 4771C8241CC90DB900D3180D /* CustomFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4771C82E1CC90DB900D3180D /* CustomFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4771C83E1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormUITests" */;
+			buildPhases = (
+				4771C82B1CC90DB900D3180D /* Sources */,
+				4771C82C1CC90DB900D3180D /* Frameworks */,
+				4771C82D1CC90DB900D3180D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4771C8311CC90DB900D3180D /* PBXTargetDependency */,
+			);
+			name = CustomFormUITests;
+			productName = CustomFormUITests;
+			productReference = 4771C82F1CC90DB900D3180D /* CustomFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4771C8091CC90DB800D3180D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HChong;
+				TargetAttributes = {
+					4771C8101CC90DB800D3180D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4771C8231CC90DB900D3180D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4771C8101CC90DB800D3180D;
+					};
+					4771C82E1CC90DB900D3180D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4771C8101CC90DB800D3180D;
+					};
+				};
+			};
+			buildConfigurationList = 4771C80C1CC90DB800D3180D /* Build configuration list for PBXProject "CustomForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4771C8081CC90DB800D3180D;
+			productRefGroup = 4771C8121CC90DB800D3180D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4771C8101CC90DB800D3180D /* CustomForm */,
+				4771C8231CC90DB900D3180D /* CustomFormTests */,
+				4771C82E1CC90DB900D3180D /* CustomFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4771C80F1CC90DB800D3180D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4771C81B1CC90DB900D3180D /* Assets.xcassets in Resources */,
+				4771C81E1CC90DB900D3180D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C8221CC90DB900D3180D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C82D1CC90DB900D3180D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4771C80D1CC90DB800D3180D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4771C8191CC90DB900D3180D /* AppDelegate.m in Sources */,
+				4771C8161CC90DB900D3180D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C8201CC90DB900D3180D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4771C8291CC90DB900D3180D /* CustomFormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4771C82B1CC90DB900D3180D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4771C8341CC90DB900D3180D /* CustomFormUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4771C8261CC90DB900D3180D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4771C8101CC90DB800D3180D /* CustomForm */;
+			targetProxy = 4771C8251CC90DB900D3180D /* PBXContainerItemProxy */;
+		};
+		4771C8311CC90DB900D3180D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4771C8101CC90DB800D3180D /* CustomForm */;
+			targetProxy = 4771C8301CC90DB900D3180D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4771C81C1CC90DB900D3180D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4771C81D1CC90DB900D3180D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4771C8361CC90DB900D3180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4771C8371CC90DB900D3180D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4771C8391CC90DB900D3180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4771C83A1CC90DB900D3180D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4771C83C1CC90DB900D3180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomForm.app/CustomForm";
+			};
+			name = Debug;
+		};
+		4771C83D1CC90DB900D3180D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomForm.app/CustomForm";
+			};
+			name = Release;
+		};
+		4771C83F1CC90DB900D3180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomForm;
+			};
+			name = Debug;
+		};
+		4771C8401CC90DB900D3180D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasouche.CustomFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4771C80C1CC90DB800D3180D /* Build configuration list for PBXProject "CustomForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4771C8361CC90DB900D3180D /* Debug */,
+				4771C8371CC90DB900D3180D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4771C8381CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4771C8391CC90DB900D3180D /* Debug */,
+				4771C83A1CC90DB900D3180D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4771C83B1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4771C83C1CC90DB900D3180D /* Debug */,
+				4771C83D1CC90DB900D3180D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4771C83E1CC90DB900D3180D /* Build configuration list for PBXNativeTarget "CustomFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4771C83F1CC90DB900D3180D /* Debug */,
+				4771C8401CC90DB900D3180D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4771C8091CC90DB800D3180D /* Project object */;
+}
