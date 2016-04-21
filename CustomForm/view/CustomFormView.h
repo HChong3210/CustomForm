@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol CustomFormViewDelegate <NSObject>
+
+
+@end
+
+@protocol CustomFormViewDataSource <NSObject>
+
+
+@end
+
 @interface CustomFormView : UIView
 
+@property(nonatomic, weak) id<CustomFormViewDelegate>delegate;
+@property(nonatomic, weak) id<CustomFormViewDataSource>dataSource;
 @end

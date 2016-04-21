@@ -10,4 +10,5 @@
 
 @interface CustomFormContentCell : CustomFormBaseCell
 
+@property(nonatomic, strong) NSArray *rowArray;
 @end
