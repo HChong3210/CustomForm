@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CustomFormController.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    CustomFormController *vc = [[CustomFormController alloc] init];
+    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = naVC;
     return YES;
 }
 

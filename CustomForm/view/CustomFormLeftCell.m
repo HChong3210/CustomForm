@@ -30,6 +30,8 @@
 
 -(void)creatSubViews{
     self.label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, topCellHeight, topCellWidth)];
+    self.label.backgroundColor = [UIColor lightGrayColor];
+    self.label.textAlignment = NSTextAlignmentCenter;
     self.label.layer.borderWidth = 1;
     self.label.layer.borderColor = [UIColor redColor].CGColor;
     [self.customView addSubview:self.label];

@@ -34,10 +34,12 @@
     self.labelArray = [NSMutableArray arrayWithCapacity:0];
     [[self.customView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [rowArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(topCellHeight * idx, 0, topCellHeight, topCellWidth)];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(topCellWidth * idx, 0, topCellWidth, leftCellHeight)];
+        label.textAlignment = NSTextAlignmentRight;
         label.layer.borderWidth = 1;
-        label.layer.borderColor = [UIColor redColor].CGColor;
+        label.layer.borderColor = [UIColor blueColor].CGColor;
         [self.customView addSubview:label];
+        [self.labelArray addObject:label];
     }];
 }
 
@@ -45,7 +47,7 @@
     NSString *string = obj;
     [self.labelArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UILabel *label = obj;
-        label.text = string;
+        label.text = [NSString stringWithFormat:@"%@-%@", string, self.rowArray[idx]];
     }];
 }
 @end

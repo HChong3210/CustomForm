@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define screenSize [UIScreen mainScreen].bounds.size
+
 static CGFloat const topCellWidth = 100;
 static CGFloat const topCellHeight = 50;
 

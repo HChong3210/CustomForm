@@ -6,8 +6,8 @@
 //  Copyright © 2016年 HChong. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface CustomFormController : CustomBaseCell
+@interface CustomFormController : UIViewController
 
 @end
